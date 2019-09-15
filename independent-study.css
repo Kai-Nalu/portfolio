@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+.main-pages {
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 200%;
+}
+.main-page-links:link, .main-page-links:visited{
+	text-decoration: none;
+	color: white;
+}
+.main-page-links:hover {
+	text-decoration: none;
+	color: #8478B4;
+}
+.main-page-spacer {
+	height: 20px;
+}
+.main-page-bg {
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+#link-environments {
+	background-image: url("images/independent-study.png");
+}
+#link-characters {
+	background-image: url("images/independent-study.png");
+}
