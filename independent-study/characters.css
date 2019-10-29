@@ -25,9 +25,12 @@
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
-#link-environments {
-	background-image: url("independent-study/enivronmentImages/volcano/volcanoFinal.png");
+#link-human {
+	background-image: url("characterImages/human/human-armature-screenshot.png");
 }
-#link-characters {
-	background-image: url("independent-study/characterImages/slug.png");
+#link-slug {
+	background-image: url("characterImages/slug/slugFinal.png");
+}
+#link-robot {
+	background-image: url("characterImages/robot/robot-I.png");
 }
