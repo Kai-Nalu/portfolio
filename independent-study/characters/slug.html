@@ -21,6 +21,10 @@
 		<img src="../characterImages/slug/slugBodyWire.png" alt="Slug wireframe" class="sub-image">
 		<h2>After reviewing some reference images, I realized that I needed to model the slug's stalks. To do that, I started with a base primative cylinder and added a primative UV sphere to the top. This was a fairly simple model.</h2>
 		<img src="../characterImages/slug/slugStalkWire.png" alt="Stalk wireframe" class="sub-image">
+		<h2>Next was the texturing process. Since a slug is a slimy organic creature, I knew it's material would need high subsurface scattering. Subsurface scattering is what happens when light shines through things with skin; the light will scatter and reflect some of the interior color. For example, when you shine a light through your finger it glows red.</h2>
+		<img src="../characterImages/slug/fingerSubSurfExample.png" alt="Subsurface Scattering Example" class="sub-image">
+		<h2>A few other things I added were displacement and a membrane layer. The displacement was a simple noise texture to give the slug some organic irregularities. The membrane layer was an effect achieved by using the 'Layer Weight' node. This node outputs a value map of the edges of the model. This allowed me to plug it into the alpha port to make the edges of the slug slightly transparent.</h2>
+		<img src="../characterImages/slug/slimeNodes.png" alt="Material Nodes" class="sub-image">
 		
 		<h2>WHAT TUTORIALS USED? <u><a href="https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Modeling_a_Human_Character_-_Modeling" class="main-page-links">LINK</a></u>, CONTINUE</h2>
 		<img src="../characterImages/slug/slugPreGrass.png" alt="Slug Pre-grass" class="sub-image">
