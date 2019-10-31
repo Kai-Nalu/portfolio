@@ -25,6 +25,8 @@
 		<img src="../characterImages/slug/fingerSubSurfExample.png" alt="Subsurface Scattering Example" class="sub-image">
 		<h2>A few other things I added were displacement and a membrane layer. The displacement was a simple noise texture to give the slug some organic irregularities. The membrane layer was an effect achieved by using the 'Layer Weight' node. This node outputs a value map of the edges of the model. This allowed me to plug it into the alpha port to make the edges of the slug slightly transparent.</h2>
 		<img src="../characterImages/slug/slimeNodes.png" alt="Material Nodes" class="sub-image">
+		<h2>Something I wanted to do was have the slug leave a trail of slime behind it on the ground. I didn't want to hand animate a texture map for this though, since that would take time and wouldn't update if I decided to change the animation. So I decided to research the 'Dynamic Paint' feature in Blender. What this does is it allows you to set one mesh as a canvas (in my case the ground plane) and another mesh as a brush (in my case the slug). Then, the brush object can draw texture maps onto the canvas object in realtime. Perfect! This is exatly what I wanted; I can plug the Dynamic Paint 'wetness' map into the 'roughness' port of my material.</h2>
+		<img src="../characterImages/slug/dynamicPaint alt="Dynamic Painting" class="sub-image">
 		
 		<h2>WHAT TUTORIALS USED? <u><a href="https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Modeling_a_Human_Character_-_Modeling" class="main-page-links">LINK</a></u>, CONTINUE</h2>
 		<img src="../characterImages/slug/slugPreGrass.png" alt="Slug Pre-grass" class="sub-image">
