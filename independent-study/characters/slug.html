@@ -27,10 +27,9 @@
 		<img src="../characterImages/slug/slimeNodes.png" alt="Material Nodes" class="sub-image">
 		<h2>Something I wanted to do was have the slug leave a trail of slime behind it on the ground. I didn't want to hand animate a texture map for this though, since that would take time and wouldn't update if I decided to change the animation. So I decided to research the 'Dynamic Paint' feature in Blender. What this does is it allows you to set one mesh as a canvas (in my case the ground plane) and another mesh as a brush (in my case the slug). Then, the brush object can draw texture maps onto the canvas object in realtime. Perfect! This is exatly what I wanted; I can plug the Dynamic Paint 'wetness' map into the 'roughness' port of my material.</h2>
 		<img src="../characterImages/slug/dynamicPaint.png" alt="Dynamic Painting" class="sub-image">
-		
-		<h2>WHAT TUTORIALS USED? <u><a href="https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Modeling_a_Human_Character_-_Modeling" class="main-page-links">LINK</a></u>, CONTINUE</h2>
-		<img src="../characterImages/slug/slugPreGrass.png" alt="Slug Pre-grass" class="sub-image">
-		<h2>SUB IMAGE^ . . . MAIN IMAGEv</h2>
+		<h2>After this, I added an HDRI environment to get automatic lighting and reflections. Along with some DOF (depth of field) adjustments to the camera, we get the following result.</h2>
+		<img src="../characterImages/slug/slugPreGrass.png" alt="Slug's first pass" class="sub-image">
+		<h2>This looks decidedly empty, so I decided to add some grass using a hair particle system. I created blades of grass from a plane with a gradient and set the hair particle render to object instance.</h2>
 		<img src="../characterImages/slug/slugFinal.png" alt="Slug" class="main-image">
 		<div class="spacer"></div>
 	</div>
